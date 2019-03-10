@@ -9,7 +9,7 @@ Installation
 ------------
 - This depends on [BMW-i3-Status](https://github.com/pkimconsulting/BMW-i3-Status) need to get this going before you move forward.
 Go to the bottom of this and change the code so it just spits out the Kappa Max value and comment out all the other stuff.
-<code>
+<pre>
 echo "$battery_kappa\n";
 #echo "BMW i3 Status Currently at $percentage ($eMiles / $rexMiles) Battery Kappa: $battery_kappa  Location: $address Charging State: $chargingState";
 #if ($percentage == 'onte') {
@@ -18,7 +18,7 @@ echo "$battery_kappa\n";
 #else {
 #  mail($email, 'BMW i3 Status', 'Currently at ' . $percentage . '. Battery Kappa: ' . $battery_kappa . '. Location: ' . $address);
 #}
-</code>
+</pre>
 
 - You also need a [ThingSpeak](https://thingspeak.com) account. It is free and you have plenty of "free" messages (3 million/yr) to support this app.
 
