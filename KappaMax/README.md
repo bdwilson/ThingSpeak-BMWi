@@ -1,8 +1,10 @@
 BMWi ThingSpeak Battery Kappa Max tracking
 =======
 <br>
-These scripts allow you to track your daily and monthly mileage in your BMWi
-automobile. 
+This script allows you to track your daily max kWh for your i3.
+
+![](https://github.com/bdwilson/bdwilson.github.io/blob/master/images/i3graph2.png?raw=true)
+
 Installation
 ------------
 - This depends on [BMW-i3-Status](https://github.com/pkimconsulting/BMW-i3-Status) need to get this going before you move forward.

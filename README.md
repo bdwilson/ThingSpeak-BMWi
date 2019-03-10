@@ -4,7 +4,7 @@ BMWi ThingSpeak Mileage Tracking
 These scripts allow you to track your daily and monthly mileage in your BMWi
 automobile. 
 
-![Screenshot](https://www.dropbox.com/s/4twn7y6nes5ct7h/2017-06-26_1033.png?dl=1)
+![](https://github.com/bdwilson/bdwilson.github.io/blob/master/images/i3graph1.png?raw=true)
 
 Installation
 ------------
@@ -13,6 +13,8 @@ Installation
 
 - You also need a [ThingSpeak](https://thingspeak.com) account. It is free and
   you have plenty of "free" messages (3 million/yr) to support this app.
+
+- If you want to track Kappa Max (max kWh), see [here](https://github.com/bdwilson/ThingSpeak-BMWi/tree/master/KappaMax).
 
 Once you've done these, copy bmwmiles.py to your python directory inside BMW-i-Remote. Run it and make sure you can get the # of miles for your car. If not, then you need to fix that first.
 
